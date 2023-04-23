@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/547f76c0a6.js" crossorigin="anonymous"></script>
+    <title>HASSAN</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="log">
+                <img src="images/logo1.png"  class="logo" >
+                <img src="images/minlog.jpg" class="minlog">
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home </a></li>
+                    <li><a href="#about">about </a></li>
+                    <li><a href="#services">services </a></li>
+                    <li><a href="#portfolio">projects </a></li>
+                    <li><a href="#contact">contact </a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>front-end developer</p>
+                <h1>hi, i'm <span>  hassan </span> <br> from egypt     <img  src="images/minlog.jpg" class="minlog2" >         </h1>
+            </div>
+            
+        </div>
+    </div>
+    <!--------------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/FB_IMG_1647871473904.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sup-title">about me</h1>
+                        <p>
+                            Hello, my name is Hassan, I Work on front end development. 
+                            My main goal is to develop my skills and present them to the company.
+                            To give the company all the ideas of the best quality and with complete 
+                            accuracy in record time on this site Some projects and works
+                            I hope that you like it and that you think well of me.
+                            Never hesitate to contact me. In the end,
+                            I fully believe that the first step on the road to success is to love your work.
+                        </p>
+
+                            <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">programming languages</p>
+                            <p class="tab-links" onclick="opentab('experience')">framework </p>
+                            <p class="tab-links"  onclick="opentab('education')">Certificates & Courses</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>html / html5 </span><br>             </li>
+                                <li><span>css / css3 </span><br>             </li>
+                                <li><span>javaScript </span><br>             </li>
+                                <li><span>tyb Script </span><br>             </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                
+                                <li><span>bootstrap </span><br> </li>
+                                <li><span>sass </span><br> </li>
+                                <li><span>wordpress </span><br> </li>
+                                <li><span>React </span><br> </li>
+                                <li><span  style="color: rgb(152, 16, 16);"  >git </span><br> </li>
+                            </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                            <ul>
+                                <li> <span> HTML5/CSS3 /javaScript </span> Mhara Tech </li>
+                                <li><span>tyb Script  </span><br>ON LINE  Mhara Tech</li>
+                                <li><span>wordpress </span><br>ON LINE  </li>
+                                <li><span>bootstrap </span><br>ON LINE  </li>
+                                <li><span>sass </span><br>ON LINE  </li>
+                                <li><span>React </span><br>ON LINE  </li>
+                                <li> <span>  WEB development CHALLENGER TRACK    </span> 
+                                <br>   وزارة الاتصالات وتكنولوجيا المعلومات المصرية </li>
+                            </ul>
+                            </div>
+                </div>
+                <a class="btn" href="index2.html">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!------services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sup-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>css / css3 </h2>
+                    <p>In this card are some small projects
+                        Click on more details to see some projects</p>
+                        <a href="https://hassanmohamed25.github.io/style/">more details</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2>javaScript </h2>
+                    <p>In this card are some small projects
+                        Click on more details to see some projects</p>
+                        <a href="https://hassanmohamed25.github.io/drag-drob/">more details</a>
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>bootstrap</h2>
+                    <p>In this card are some small projects
+                        Click on more details to see some projects</p>
+                        <a href="#">more details</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--------- portfolio---------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sup-title">my work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/genedi top (2).png" alt="">
+                    <div class="layer">
+                        <h3>GENEDI Company</h3>
+                        <p>Company engaged in clothing. If you would like to see the official website, click here</p>
+                            <a href="https://hassanmohamed25.github.io/Genedi/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/anon.png" alt="">
+                    <div class="layer">
+                        <h3>anon-ecommerce-website</h3>
+                        <p>An online store similar to Noon is a review of software experience. If you want to see it, click here</p>
+                            <a href="https://hassanmohamed25.github.io/anon/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hotel.png" alt="">
+                    <div class="layer">
+                        <h3>Hotels And Resorts</h3>
+                        <p>It's a hotel with some features, and a showcase for some software expertise if you want to see it click here</p>
+                            <a href="https://hassanmohamed25.github.io/hotel/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <a class="btn" href="projects.html">see more</a>
+        </div>
+    </div>
+
+
+        <!---------contact-------->
+
+
+        <div id="contact">
+        <div class="container">
+                <div class="row">
+            <div class="contact-left">
+                <h1 class="sup-title">contact me</h1>
+                <p> 
+
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <a href="mailto:hmshaf3y@gmail.com" class="footer-nav-link">hassanshafei@gmail.com</a>
+                </p>
+                <p> 
+                    
+                    <i class="fa-solid fa-phone"></i>  
+                    
+                    <a href="tel:01122093323" class="footer-nav-link">01122093323</a>
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/hassan.aboamo.902"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/hassanmohamed25"><i class="fa-brands fa-github-square"></i></a>
+                    <a href="https://www.linkedin.com/in/hassan-mohamed-881b81236/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/hm220933/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="cv/Hassancv5.pdf" download class="btn btn2">Download cv</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="massage"  rows="6" placeholder="your massage"></textarea>
+                    <button type="submit" class="btn btn2" >submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+                </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; <a href="https://www.linkedin.com/in/hassan-mohamed-881b81236/" class="cohasan" >HASSAN Mohamed</a> all rights reserved.<i class="fa-solid fa-laptop-code"></i> 
+        </div>
+        </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            } 
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+        sidemenu.style.right = "0";
+
+        }
+        
+        function closemenu(){
+                sidemenu.style.right = "-200px";
+                
+        }
+    </script>
+            
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwqKBT7zIcPfAHjGktrfam7JfLori7HCPmFEg4p2VruMOuf3kP7OW5dcJ84TbkPX2fe/exec'
+    const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+    form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "massage sent successfully"
+            setTimeout (function(){
+                msg.innerHTML = ""
+            } ,5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+        </script>
+
+</body>
+</html>

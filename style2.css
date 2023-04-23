@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+body{
+    background: rgb(39, 37, 37);
+}
+
+.cont-2{
+    
+    border-top: 5px solid  #ff004f;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.school .images img{
+    width: 330px;
+    height: 280px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgb(69, 67, 67);
+    border: 2px solid #ff004f;
+    transition: 0.5s;
+}
+
+
+.images img:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px){
+    .school .images img{
+        width: 250px;
+        height: auto;
+    }
+}
